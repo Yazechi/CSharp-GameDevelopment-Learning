@@ -14,8 +14,8 @@ namespace Engine
         public Weapon(int id, string name, string namePlural, int minimumDamage, int maximumDamage)
             : base(id, name, namePlural)
         {
-            int MinimumDamage = minimumDamage;
-            int MaximumDamage = maximumDamage;
+            MinimumDamage = minimumDamage;
+            MaximumDamage = maximumDamage;
         }
     }
 }
